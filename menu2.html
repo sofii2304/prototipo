@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<br><br>
+<title>Sistemas unidades</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Pagina web fisica </title></head>
+    <body bgcolor="#28021b">
+        <font size="6" color="#df7644" face="Comics Sans CM"></font><br>
+
+<nav class="menu">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html#">Inicio</a></li>
+        <li><a href="http://127.0.0.1:5500/menu2.html">Sistemas unidades </a></li>
+        <li><a href="http://127.0.0.1:5500/menu3.html">Notación científica</a></li>
+        <li><a href="http://127.0.0.1:5500/menu4.html">Concepto de vector</a></li>
+      </ul>
+
+      <div>
+        <input type="text" id="busquedaInput" placeholder="Buscar...">
+        <button onclick="buscar()">Buscar</button>
+    </div>
+
+    
+    <div id="resultados"></div>
+
+</nav>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+  
+
+<div class="w3-content" style="max-width:1600px">
+
+  
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>SISTEMA INTERNACIONAL DE</b></h1>
+    <h2>UNIDADES  <span class="w3-tag">SI</span></h2>
+  </header>
+
+ 
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" img src="img/sistema.jpg" alt="Fashion Blog" width="1600" height="1060" >
+    <div class="w3-display-left w3-padding-large">
+    </div>
+  </header>
+   
+  <div class="w3-row w3-padding w3-border">
+
+    
+    <div class="w3-col l8 s12">
+    
+      
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>Unidades derivadas del SI</h2>
+          <h5>Como su nombre lo indica, las unidades derivadas del SI se desprenden 
+            de las unidades básicas, mediante combinaciones y relaciones entre ellas, para así poder expresar magnitudes
+             físicas matemáticamente.
+          
+              <span class="w3-opacity"><br></span>
+          </h5>
+        </div>
+        
+        <div class="w3-row-padding w3-white">
+            <div class="w3-col s6">
+              <p><img src="img/metro cubico.png" alt="Men in Hats" style="width:100%"></p>
+              <p><strong>Metro cúbico (m3):</strong>  </p>
+              <p>Unidad derivada construida para medir el volumen de una sustancia.
+
+                 </p>
+              <p><img src="img/Kilogramo por metro cúbico (kgm3).png" alt="Jeans" style="width:100%"></p>
+              <p><strong>Kilogramo por metro cúbico (kg/m3):</strong>  </p>
+          <p>Unidad derivada construida para medir la densidad de un cuerpo.
+
+            
+            </p>
+            </div>
+            <div class="w3-col s6">
+                <p><img src="img/newton.png" alt="Men in Hats" style="width:100%"></p>
+                <p><strong>Newton (N):</strong>  </p>
+          <p>Rindiendo homenaje al padre de la física moderna, el británico Isaac Newton 
+            (1643-1727), es la unidad derivada construida para medir la fuerza.
+
+            
+          </p>
+                <p><img src="img/julios.png" alt="Jeans" style="width:100%"></p>
+          <p><strong>Julios/Joule (J):</strong>  </p>
+                <p>Toma su nombre del físico inglés James Prescott Joule (1818-1889), 
+                  y es la unidad derivada del SI que se emplea para medir la energía, el trabajo o el calor.
+
+                 
+
+                </p>      
+        </div>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/MLR_Freya.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Freya <span class="w3-opacity w3-medium">Mayo 3, 2023, 6:32 PM</span></h4>
+                <p>Mi Dios norico favorito es Loki </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>¿Qué es el Sistema  </h2>
+          <h2>Internacional de <span class="w3-opacity">Unidades?</span></h2>
+        </div>
+
+        <div class="w3-justify">
+          <img src="img/Diseño sin título.png" alt="Runway" style="width:80%" class="w3-padding-16">
+         
+          <p>Se conoce como el Sistema Internacional de Unidades (abreviado SI) al sistema de unidades de medición
+             empleado en prácticamente todo el mundo. Es utilizado en la construcción de los más numerosos instrumentos de 
+             medición para el consumo tanto especializado como cotidiano.<br>
+
+            <br>Un sistema de unidades es un patrón científico que permite poner en relación las cosas
+             en base a un conjunto de unidades imaginarias. Es decir, se trata de un sistema para poder registrar la realidad:
+              pesar, medir, cronometrar, etc., en base a un conjunto de unidades que son siempre iguales a sí mismas y que se pueden 
+              aplicar en cualquier parte del mundo con igual valor.<br>
+
+              <br>El Sistema Internacional de Unidades es el más aceptado de todos los sistemas de medición 
+              (aunque no el único, pues en algunos países emplean aún el sistema anglosajón) y el único que tiende a cierta
+               universalización en la actualidad.
+
+          </p>
+           
+          
+          <h2>¿Qué es el Sistema  </h2>
+          <h2>Internacional de <span class="w3-opacity">Unidades?</span></h2>
+          <p>En las siguientes secciones, te explicaremos las bases de las conversiones de unidades y cómo aplicar
+             estos conceptos en diferentes situaciones.<br>
+        </div>
+
+        <div class="w3-justify">
+          <p><img src="img/longitud.jpg" alt="Men in Hats" style="width:40%"></p>
+                <p><strong>¿Cómo convertir unidades de longitud?:</strong>  </p>
+          <p>La conversión de unidades de longitud se suele hacer utilizando factores de conversión. 
+            Por ejemplo, para convertir metros (m) a centímetros (cm), debemos multiplicar por 100, ya que
+             1 metro equivale a 100 centímetros.
+
+            
+          </p>
+                <p><img src="img/masa.jpg" alt="Jeans" style="width:40%"></p>
+          <p><strong>¿Cómo convertir unidades de masa?:</strong>  </p>
+                <p>La conversión de unidades de masa se suele hacer utilizando factores de conversión. Por ejemplo,
+                   para convertir kilogramos (kg) a gramos (g), debemos multiplicar por 1000, ya que 1 kilogramo equivale a
+                    1000 gramos.
+
+                 
+
+                </p>   
+          
+                <p><img src="img/tiempo.jpg" alt="Men in Hats" style="width:40%"></p>
+                <p><strong>¿Cómo convertir unidades de tiempo?:</strong>  </p>
+          <p>La conversión de unidades de tiempo se suele hacer utilizando factores de conversión.
+             Por ejemplo, para convertir horas (h) a minutos (min), debemos multiplicar por 60, ya que 1 hora 
+             equivale a 60 minutos.
+            
+          </p>
+                <p><img src="img/TEMPERATURA.jpg" alt="Jeans" style="width:40%"></p>
+          <p><strong>¿Cómo convertir unidades de temperatura?:</strong>  </p>
+                <p>La conversión de unidades de temperatura se suele hacer utilizando fórmulas matemáticas.
+                   Por ejemplo, para convertir grados Celsius (°C) a grados Fahrenheit (°F), debemos utilizar la fórmula:
+                    °F = (°C × 1,8) + 32.
+
+                </p>         
+          
+
+          
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Comentarios  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/perfil.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>fisico2.0<span class="w3-opacity w3-medium">Abril 12 2023, 7:22 PM</span></h4>
+                <p>La Teoría del Big Bounce.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/perfil.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>magneti3<span class="w3-opacity w3-medium">Abril 8, 2023, 10:32 PM</span></h4>
+                <p>La Teoría de Cuerdas</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/perfil.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>cuant4 <span class="w3-opacity w3-medium">Abril 7, 2023, 9:12 PM</span></h4>
+                <p> La Teoría M</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+    </div>
+
+    
+    <div class="w3-col l4">
+      <div class="w3-row w3-padding w3-border">
+   
+        <div class="question-container">
+          <h2>Cuestionario Interactivo</h2>
+
+
+          <p> De acuerdo con el sistema Internacional<br>
+          de unidades (SI) el tiempo se mide en: </p>
+          <div class="question">
+            <p>el tiempo se mide en: <input type="text" id="respuesta1" placeholder="Tu respuesta aquí" /></p>
+          </div>
+          
+          <p>La intensidad de corriente <br>
+            electrica.. </p>
+          <div class="question">
+            <p>se mide en: <input type="text" id="respuesta2" placeholder="Falso o verdadero" /></p>
+          </div>
+          
+          <p>De acuerdo al sistema internacional de <br>
+            unidades (SI), la temperatura... </p>
+          <div class="question">
+            <p>se mide en: <input type="text" id="respuesta3" placeholder="Falso o verdadero" /></p>
+          </div>
+          
+          <p>Como se mide la cantidad de  <br>
+            sustancia segun el sistema </p>
+          <div class="question">
+            <p>Internacionalde unidades: <input type="text" id="respuesta4" placeholder="Tu respuesta aquí" /></p>
+          </div>
+        
+          <p>Con que unidad..  <br>
+            </p>
+          <div class="question">
+            <p>se mide el trabajo: <input type="text" id="respuesta5" placeholder="Tu respuesta aquí" /></p>
+          </div>
+          
+          <p>Que tipo de longitud..  <br>
+          </p>
+          <div class="question">
+            <p>es la Masa <input type="text" id="respuesta6" placeholder="Tu respuesta aquí" /></p>
+          </div>
+          
+          <p>Cual es la unidad derivada
+            que se usa para  <br>
+          </p>
+          <div class="question">
+            <p>medir el volumen: <input type="text" id="respuesta7" placeholder="Tu respuesta aquí" /></p>
+          </div>
+          
+          <p>Cual es la unidad basica de 
+            la intensidad luminosa  <br>
+          </p>
+          <div class="question">
+            <p>la intensidad luminosa : <input type="text" id="respuesta8" placeholder="Tu respuesta aquí" /></p>
+          </div>
+          
+          <p>Que formula debemos usar para
+          convertir grados Celsius <br>
+          </p>
+          <div class="question">
+            <p>a grados Fahrenheit: <input type="text" id="respuesta9" placeholder="Tu respuesta aquí" /></p>
+          </div>
+          
+          <p>Que tipo de unidad es 
+             <br>
+            </p>
+          <div class="question">
+            <p>el litro: <input type="text" id="respuesta10" placeholder="Tu respuesta aquí" /></p>
+          </div>
+        
+          <button onclick="analizarRespuestas()">Analizar Respuestas</button>
+        </div>
+        
+
+        
+      
+      
+      <div class="w3-white w3-margin">
+        <img src="img/caballo.jpeg" alt="Jane" style="width:100%" >
+        <div class="w3-container w3-black">
+          <h4>DATOS CURIOSOS QUE NO SABIAS SOBRE LAS UNIDADES DE MEDIDA</h4>
+          <p><h4>Originalmente, James Watt definió una unidad de potencia que llamó horse power, 
+            caballo de fuerza, que debía ser la potencia producida por un caballo normal en plena faena, 1 hp = 746 w </p>
+        </div>
+      </div>
+      <hr>
+
+     
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h3>Comentarios</h3>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/perfil.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">anonimous</span>
+            <br>
+            <span>La Teoría del Big Bang</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/perfil.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">anonimousss2</span>
+            <br>
+            <span>La Teoría de la Relatividad General</span>
+          </li>
+          
+          
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h3>También te puede interesar</h3>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Fisica Moderna</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ciencias Naturales</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mecanica cuantica</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ramas de la Fisica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Termodinamica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Biofisica</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cinematica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ramas de la Fisica</span> 
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Movimientos</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mecanica en Fisica</span> 
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Energia en Fisica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Geografia Fisica</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>Unidades básicas del SI</h2>
+        </div>
+
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/unidadesdemedida.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Metro (m)</strong>  </p>
+            <p>Rindiendo homenaje al padre de la física moderna, el británico Isaac Newton 
+              (1643-1727), es la unidad derivada construida para medir la fuerza.
+  
+              
+            </p>
+            
+            <p><img src="img/kilogramos.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Kilogramo (kg)</strong>  </p>
+            <p>La unidad básica de masa, definida científicamente a partir de un prototipo de kilogramo 
+              compuesto por una aleación 90% de platino y 10% de iridio.
+              
+            </p>
+
+          </div>
+
+          <div class="w3-col s6">
+            <p><img src="img/segundos.png" alt="Men in Hats" style="width:100%"></p>
+            <p><strong>Segundo (s)</strong>  </p>
+            <p>La unidad básica de tiempo, definida científicamente como la duración de 9.192.631.770 
+              períodos de la radiación correspondiente a la transición entre los dos niveles hiperfinos.
+
+              
+            </p>
+            
+            <p><img src="img/amperio.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Amperio (A)</strong>  </p>
+            <p>La unidad básica de la corriente eléctrica, que rinde homenaje al físico francés André-Marie Ampère
+               (1775-1836), y definida científicamente como la intensidad de una corriente constante.
+
+            </p>
+
+         </div>
+        </div>
+
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/kelvin.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Kelvin (K)</strong>  </p>
+            <p>La unidad básica de la temperatura y la termodinámica, que rinde homenaje a su creador,
+               el físico británico William Thomson (1824-1907), también conocido como Lord Kelvin.
+           </p>
+            
+            <p><img src="img/mol.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Mol (mol)</strong>  </p>
+            <p>La unidad básica para medir la cantidad de una sustancia dentro de una mezcla o disolución, 
+              definida científicamente como la cantidad de sustancia de un sistema.
+           </p>
+           
+          </div>
+
+          <div class="w3-col s6">
+            <p><img src="img/lumino.png" alt="Men in Hats" style="width:100%"></p>
+            <p><strong>Candela (cd)</strong>  </p>
+            <p>Esta es la unidad básica de la intensidad luminosa, definida científicamente como la que posee, 
+              en una dirección dada, una fuente que emite una radiación monocromática de 540 x 1012.
+           </p>
+          
+         </div>
+
+         
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Compartir</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>¿Tienes alguna teoria? </h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Dejamelo en los comentarios</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Comentar</button></p>
+        </div>
+      </div>
+
+    
+    </div>
+
+  
+  </div>
+
+
+</div>
+
+
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">¿Tienes alguna teoria?</h2>
+      <p>Dejamelo en los comentarios</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Comentar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Arriba</a>
+  <script src="js/scripts1.js"></script>
+
+</footer>
+
+</body>
+</html>

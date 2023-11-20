@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+<br><br>
+<title>Concepto de vector</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Pagina web fisica </title></head>
+    <body bgcolor="#000000">
+        <font size="6" color="#df7644" face="Comics Sans CM"></font><br>
+
+<nav class="menu">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/index.html#">Inicio</a></li>
+        <li><a href="http://127.0.0.1:5500/menu2.html">Sistemas unidades </a></li>
+        <li><a href="http://127.0.0.1:5500/menu3.html">Notación científica</a></li>
+        <li><a href="http://127.0.0.1:5500/menu4.html">Concepto de vector</a></li>
+      </ul>
+
+      <div>
+        <input type="text" id="busquedaInput" placeholder="Buscar...">
+        <button onclick="buscar()">Buscar</button>
+    </div>
+    <div id="resultados"></div>
+
+</nav>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+  
+
+<div class="w3-content" style="max-width:1600px">
+
+  
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>VECTORES </b></h1>
+    
+  </header>
+
+ 
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" img src="img/vectoreeesss.jpg" alt="Fashion Blog" width="1600" height="1060" >
+    <div class="w3-display-left w3-padding-large">
+    </div>
+  </header>
+
+  
+  <div class="w3-row w3-padding w3-border">
+
+    
+    <div class="w3-col l8 s12">
+    
+      
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>Vector</h2>
+          <h5>En física y matemáticas, un vector es un segmento de una línea recta, dotado de un sentido,
+             es decir, orientado dentro de un plano euclidiano bidimensional o tridimensional. O lo que es lo
+              mismo: un vector es un elemento en un espacio vectorial.
+              En física un vector se define como un ente matemático, gráficamente se representa mediante 
+              un segmento de recta que posee una orientación definida en el espacio, un vector en física se utiliza
+               para representar los fenómenos como: el movimiento, la fuerza, la aceleración, el peso de un cuerpo, 
+               la dirección de muchos fenómenos físicos, entre otros.
+
+
+              <span class="w3-opacity"><br>Características de un vector</span>
+          </h5>
+        </div>
+        
+        <div class="w3-row-padding w3-white">
+            <div class="w3-col s6">
+              <p><img src="img/direccion .png" alt="Men in Hats" style="width:100%"></p>
+              <p><strong>Dirección:</strong>  </p>
+              <p>Definida como la recta sobre la cual se traza el vector, continuada 
+                infinitamente en el espacio. </p>
+              <p><img src="img/magnitud.png" alt="Jeans" style="width:100%"></p>
+              <p><strong>Módulo o amplitud:</strong>  </p>
+          <p>La longitud gráfica que equivale, dentro de un plano, a la magnitud 
+            del vector expresada numéricamente.
+            </p>
+            </div>
+            <div class="w3-col s6">
+                <p><img src="img/sentido.png" alt="Men in Hats" style="width:100%"></p>
+                <p><strong>Sentido:</strong>  </p>
+          <p>Representado por la punta de la flecha que gráficamente representa al vector, 
+            indica el lugar geométrico hacia el cual se dirige el vector.
+
+         
+          </p>
+                <p><img src="img/punto.png" alt="Jeans" style="width:100%"></p>
+          <p><strong>Punto de aplicación:</strong>  </p>
+                <p>Correspondiente al lugar o punto geométrico en donde inicia el vector gráficamente.
+
+            
+
+                </p>      
+        </div>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="img/MLR_Freya.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Freya <span class="w3-opacity w3-medium">Mayo 3, 2023, 6:32 PM</span></h4>
+                <p>Mi Dios norico favorito es Loki </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <p><img src="img/peso.jpg" alt="Men in Hats" style="width:50%"></p>
+          <h3>Operaciones </h3>
+          <h5>con  <span class="w3-opacity">VECTORES</span></h5>
+          <p><img src="img/peso.jpg" alt="Men in Hats" style="width:50%"></p>
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>También conocido como operaciones vectoriales; los vectores están definidos matemáticamente,
+             poseen componentes rectangulares, y pueden estar representados en un plano o espacio tridimensional.
+              Veamos a continuación que tipo de operaciones admiten los vectores.<br>
+
+              En la actualidad, en cambio, la física es una de las disciplinas que más contribuye con el cambio del 
+              paradigma científico,
+               industrial y tecnológico.<br>
+
+              
+          </p>
+
+          <h3>Operación de adición y sustracción de vectores. </h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>dos o más vectores se pueden sumar o restar para obtener un vector suma resultante o vector 
+            diferencia respectivamente.<br>
+          </p>
+
+          <h3>Multiplicación de vectores por un escalar </h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>un vector puede ser multiplicado por un número real.<br>
+          </p>
+
+          <h3>Producto interno o producto punto de vectores</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>Esta operación se puede realizar con dos o más vectores y el resultado es un número (escalar)<br>
+          </p>
+
+          <h3>Producto vectorial o producto cruz de vectores</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p> esta operación se realiza entre dos vectores o más y el resultado es otro vector.
+            <br>
+          </p>
+
+
+          <h2>Aplicaciones de los vectores </h2>
+        </div>
+
+        <div class="w3-justify">
+          
+
+          <h3>En matemáticas</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>Las materias en las que se hace un estudio y aplicación bastante a menudo de los vectores, son en el estudio 
+            del álgebra lineal, las ecuaciones diferenciales, análisis matemático, cálculo, etc.<br>
+          </p>
+
+          <h3>Programación e informática</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>Los vectores en programación pueden ser empleados como contenedores de datos, como arreglos que contienen un valor 
+            determinado que servirá para realizar o completar las instrucciones que ejecute un determinado programa<br>
+          </p>
+
+
+          <h3>Los vectores en la vida cotidiana</h3>
+          
+        </div>
+
+        <div class="w3-justify">
+         
+         
+          <p>También están en nuestro día a día abstractamente, por ejemplo nuestros movimientos pueden ser representados por vectores, pues tienen una dirección, un sentido y hasta una dimensión; de la misma forma los vehículos, o cualquier objeto que se mueve.
+
+            La fuerza de las actividades físicas puede ser representada y calculados mediante la operación y cálculo vectorial.
+            
+            Ahora que sabes lo que es un vector en física, puedes pasar ha aprender más sobre ellos.<br>
+          </p>
+
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/perfil.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>fisico2.0<span class="w3-opacity w3-medium">Abril 12 2023, 7:22 PM</span></h4>
+                <p>La Teoría del Big Bounce.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/perfil.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>magneti3<span class="w3-opacity w3-medium">Abril 8, 2023, 10:32 PM</span></h4>
+                <p>La Teoría de Cuerdas</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/perfil.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>cuant4 <span class="w3-opacity w3-medium">Abril 7, 2023, 9:12 PM</span></h4>
+                <p> La Teoría M</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+    </div>
+
+    
+    <div class="w3-col l4">
+      
+      <div class="w3-white w3-margin">
+        <img src="img/naturaleza.jpeg" alt="Jane" style="width:100%" >
+        <div class="w3-container w3-black">
+          <h4>DATOS CURIOSOS DE LOS VECTORES</h4>
+          <p><h4>Vectores en la Naturaleza: Muchos fenómenos naturales pueden describirse mediante 
+            vectores. Por ejemplo, la velocidad y la aceleración de un objeto, la fuerza ejercida
+             sobre un cuerpo, el campo magnético, entre otros. </p>
+        </div>
+      </div>
+      <hr>
+
+     
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h3>Comentarios</h3>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="img/perfil.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">anonimous</span>
+            <br>
+            <span>La Teoría del Big Bang</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="img/perfil.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">anonimousss2</span>
+            <br>
+            <span>La Teoría de la Relatividad General</span>
+          </li>
+          
+          
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h3>También te puede interesar</h3>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Fisica Moderna</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ciencias Naturales</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mecanica cuantica</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ramas de la Fisica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Termodinamica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Biofisica</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cinematica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ramas de la Fisica</span> 
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Movimientos</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Mecanica en Fisica</span> 
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Energia en Fisica</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Geografia Fisica</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h2>Tipos de vectores </h2>
+        </div>
+
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/libres.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Vectores libres</strong>  </p>
+            <p>Aquellos que no poseen un punto de aplicación particular.
+
+           </p>
+            
+            <p><img src="img/deslizantes.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Vectores deslizantes</strong>  </p>
+            <p>Aquellos cuyo punto de aplicación puede ser uno cualquiera a lo largo de la recta de aplicación.
+
+              </p>
+            
+          </div>
+
+          <div class="w3-col s6">
+            <p><img src="img/ligados .png" alt="Men in Hats" style="width:100%"></p>
+            <p><strong>Vectores fijos o ligados</strong>  </p>
+            <p>Aquellos que poseen un único y determinado punto de aplicación.
+
+              </p>
+            
+            <p><img src="img/angulares.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Vectores angulares o concurrentes</strong>  </p>
+            <p>Aquellos que forman ángulos respecto de sus líneas de acción o direcciones.
+
+               </p>
+            
+         </div>
+        </div>
+
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="img/opuestos.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Vectores opuestos</strong>  </p>
+            <p>Aquellos que poseen igual magnitud pero sentido contrario.
+
+             </p>
+            
+            <p><img src="img/colineales.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Vectores colineales</strong>  </p>
+            <p>Aquellos que comparten recta de acción. </p>
+           
+          </div>
+
+          <div class="w3-col s6">
+            <p><img src="img/paralelos.png" alt="Men in Hats" style="width:100%"></p>
+            <p><strong>Vectores paralelos</strong>  </p>
+            <p>Aquellos cuyas líneas de acción sean, justamente, paralelas.
+
+              </p>
+            
+            <p><img src="img/coplanarios.png" alt="Jeans" style="width:100%"></p>
+            <p><strong>Vectores coplanarios</strong>  </p>
+            <p>Aquellos cuyas rectas de acción estén situadas en un mismo plano.
+
+               </p>
+            
+         </div>
+
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Compartir</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>¿Tienes alguna teoria? </h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Dejamelo en los comentarios</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Comentar</button></p>
+        </div>
+      </div>
+
+    
+    </div>
+
+  
+  </div>
+
+
+</div>
+
+
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">¿Tienes alguna teoria?</h2>
+      <p>Dejamelo en los comentarios</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Comentar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Arriba</a>
+  <script src="js/scripts3.js"></script>
+
+</footer>
+
+</body>
+</html>

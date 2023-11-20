@@ -1,0 +1,60 @@
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 0.5em;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.menu a:hover {
+    background-color: #de0d68;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+}
+
+.question-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+.blank {
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    background-color: #eee;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
